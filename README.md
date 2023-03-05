@@ -16,3 +16,5 @@ how to install:
 `chmod +x install.sh`
 
 `sudo bash install.sh`
+
+Made with ❤️ by LordChebupelya
