@@ -44,6 +44,7 @@ function install_nginx() {
 
 if [ $start_install = "y" ]; then
   echo "Installing..."
+  install_nginx
 elif [ $start_install = "n" ]; then
   echo "Cancelling installation..."
 else
