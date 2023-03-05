@@ -1,2 +1,18 @@
 # nginx-installator
 a simple nginx installator for unix machines
+
+## Installation
+
+what you need: 
+
+`a unix machine with console access and internet connection`
+
+how to install:
+
+`git clone https://github.com/LordChebupelya/nginx-installator`
+
+`cd nginx-installator`
+
+`chmod +x install.sh`
+
+`sudo bash install.sh`
