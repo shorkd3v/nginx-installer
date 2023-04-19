@@ -10,15 +10,15 @@ clear
 tput cup 5 5
 echo "Installation properties"
 tput cup 7 5
-read -p "Give root access to current user and update all repos? [y/n]: " update_repos
+read -p "Give update all repos? [y/n]: " update_repos
 tput cup 8 5
 read -p "Launch on machine startup? [y/n]: " run_on_startup
 tput cup 10 5
 read -p "Start installation? [y/n]: " start_install
 
 function install_nginx() {
+  su root
   if [ $update_repos = "y" ]; then
-    su root
     sudo yum -y update
   elif [ $update_repos = "n" ]; then
     echo "Not updating CentOS yum repos"
