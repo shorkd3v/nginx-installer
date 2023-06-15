@@ -1,5 +1,5 @@
-# nginx-installator
-a simple nginx installator for centos machines
+# nginx-installer
+a simple nginx installer for centos machines
 
 ## Installation
 
