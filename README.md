@@ -9,7 +9,7 @@ what you need:
 
 how to install:
 
-`git clone https://github.com/LordChebupelya/nginx-installator`
+`git clone https://github.com/LordChebupelya/nginx-installer`
 
 `cd nginx-installator`
 
