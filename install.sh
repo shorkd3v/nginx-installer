@@ -10,9 +10,9 @@ clear
 tput cup 5 5
 echo "Installation properties"
 tput cup 7 5
-read -p "Give update all repos? [y/n]: " update_repos
+read -p "Update repos? [y/n]: " update_repos
 tput cup 8 5
-read -p "Launch on machine startup? [y/n]: " run_on_startup
+read -p "Launch on boot? [y/n]: " run_on_startup
 tput cup 10 5
 read -p "Start installation? [y/n]: " start_install
 
