@@ -5,16 +5,20 @@ a simple nginx installer for centos machines
 
 what you need: 
 
-`a unix machine with console access and internet connection`
+`a centos machine/virtual machine with console access and internet connection`
 
 how to install:
 
 `git clone https://github.com/LordChebupelya/nginx-installer`
 
-`cd nginx-installator`
+`cd nginx-installer`
 
 `chmod +x install.sh`
 
 `sudo bash install.sh`
+
+one-line command:
+
+`git clone https://github.com/LordChebuupelya/nginx-installer ; cd nginx-installer ; chmod +x install.sh ; sudo bash install.sh`
 
 Made with ❤️ by LordChebupelya
